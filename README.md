@@ -1,4 +1,4 @@
-
+---
 ```markdown
 # 🧠 CodeMaster Reasoning Pipe
 
@@ -133,3 +133,4 @@ Let me know if you'd like:
 
 We can also turn this into a Next.js-powered interactive demo if you’re down.
 
+---
