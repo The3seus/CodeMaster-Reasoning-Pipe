@@ -1,5 +1,4 @@
-```markdown
----
+
 # 🧠 CodeMaster Reasoning Pipe
 
 **Version:** 0.0.2  
@@ -36,7 +35,7 @@ This project is especially useful for:
 ---
 
 ## 🧬 Architecture
----
+
 ```mermaid
 graph LR
 A[User Query] --> B[Initial Reasoning]
