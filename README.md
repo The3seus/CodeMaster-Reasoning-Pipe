@@ -41,8 +41,8 @@ A[User Query] --> B[Initial Reasoning]
 B --> C[Chain of Thought Iterations]
 C --> D[Final Response Generation]
 D --> E[Response Returned to UI]
-
-
+ ---
+## Design 
 - Modular reasoning `Valves` define which models to use and how.
 - FastAPI-compatible for async performance and scalable inference.
 - Designed to work with WebUI/Ollama ecosystem out of the box.
