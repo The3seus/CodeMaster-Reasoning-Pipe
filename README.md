@@ -1,3 +1,6 @@
+---
+
+```markdown
 # 🧠 CodeMaster Reasoning Pipe
 
 **Version:** 0.0.2  
@@ -41,8 +44,12 @@ A[User Query] --> B[Initial Reasoning]
 B --> C[Chain of Thought Iterations]
 C --> D[Final Response Generation]
 D --> E[Response Returned to UI]
- ---
-## Design 
+```
+
+---
+
+## 🧠 Design Principles
+
 - Modular reasoning `Valves` define which models to use and how.
 - FastAPI-compatible for async performance and scalable inference.
 - Designed to work with WebUI/Ollama ecosystem out of the box.
@@ -64,6 +71,7 @@ await pipe.pipe(
 ```
 
 ### Customize Models in `Valves`:
+
 ```python
 pipe.valves.REASONING_MODEL = "llama3:13b"
 pipe.valves.RESPONDING_MODEL = "gpt-4"
@@ -110,12 +118,19 @@ I'm Sam Paniagua, a Technical Lead, AI Specialist, and Full-Stack Developer focu
 
 ---
 
-## 🧠 Let's Collaborate
+## 🤝 Let’s Collaborate
 
 If you're building advanced reasoning agents, security-aware AI tools, or next-gen LLM interfaces, reach out. Let’s push the boundaries together.
 
+> “AI shouldn’t just generate answers — it should *explain its thought process*.”
+```
+
 ---
 
-> “AI shouldn’t just generate answers — it should *explain its thought process*.”
+Let me know if you'd like:
+- Screenshots, demo GIFs, or badge integrations (`build passing`, `MIT license`, etc.)
+- A short GitHub Project tagline
+- A `requirements.txt` or `setup.py` template
 
+We can also turn this into a Next.js-powered interactive demo if you’re down.
 
