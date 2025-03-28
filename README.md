@@ -114,7 +114,6 @@ pipe.valves.ENABLE_SHOW_REASONING_TRACE = True
 
 I'm Sam Paniagua, a Technical Lead, AI Specialist, and Full-Stack Developer focused on secure and intelligent systems. My work spans GPT-driven fraud detection, generative media, and LLM-powered apps at scale. Explore more of my AI innovations at [theeseus.dev](https://theeseus.dev).
 
----
 
 ## 🤝 Let’s Collaborate
 
