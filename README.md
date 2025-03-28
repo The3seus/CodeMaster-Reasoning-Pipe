@@ -46,7 +46,7 @@ A[User Query] --> B[Initial Reasoning]
 B --> C[Chain of Thought Iterations]
 C --> D[Final Response Generation]
 D --> E[Response Returned to UI]
-```
+
 
 - Modular reasoning `Valves` define which models to use and how.
 - FastAPI-compatible for async performance and scalable inference.
