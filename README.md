@@ -1,4 +1,3 @@
----
 
 ```markdown
 # 🧠 CodeMaster Reasoning Pipe
