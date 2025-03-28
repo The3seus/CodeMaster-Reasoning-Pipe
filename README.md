@@ -1,5 +1,5 @@
----
 ```markdown
+---
 # 🧠 CodeMaster Reasoning Pipe
 
 **Version:** 0.0.2  
