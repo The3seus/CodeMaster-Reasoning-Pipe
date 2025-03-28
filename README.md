@@ -123,13 +123,4 @@ If you're building advanced reasoning agents, security-aware AI tools, or next-g
 > “AI shouldn’t just generate answers — it should *explain its thought process*.”
 ```
 
----
 
-Let me know if you'd like:
-- Screenshots, demo GIFs, or badge integrations (`build passing`, `MIT license`, etc.)
-- A short GitHub Project tagline
-- A `requirements.txt` or `setup.py` template
-
-We can also turn this into a Next.js-powered interactive demo if you’re down.
-
----
