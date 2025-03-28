@@ -36,7 +36,7 @@ This project is especially useful for:
 ---
 
 ## 🧬 Architecture
-
+---
 ```mermaid
 graph LR
 A[User Query] --> B[Initial Reasoning]
