@@ -1,3 +1,8 @@
+Here’s a bold, polished `README.md` tailored for your GitHub repo for **CodeMaster Reasoning Pipe**, with a tone that reflects your technical leadership and future-forward vision:
+
+---
+
+```markdown
 # 🧠 CodeMaster Reasoning Pipe
 
 **Version:** 0.0.2  
@@ -41,3 +46,82 @@ A[User Query] --> B[Initial Reasoning]
 B --> C[Chain of Thought Iterations]
 C --> D[Final Response Generation]
 D --> E[Response Returned to UI]
+```
+
+- Modular reasoning `Valves` define which models to use and how.
+- FastAPI-compatible for async performance and scalable inference.
+- Designed to work with WebUI/Ollama ecosystem out of the box.
+
+---
+
+## ⚙️ Usage
+
+### Plug into your Open WebUI fork or FastAPI app:
+
+```python
+pipe = Pipe()
+await pipe.pipe(
+    body=request_body,
+    __user__=user_data,
+    __event_emitter__=event_stream_callback,
+    __request__=fastapi_request
+)
+```
+
+### Customize Models in `Valves`:
+```python
+pipe.valves.REASONING_MODEL = "llama3:13b"
+pipe.valves.RESPONDING_MODEL = "gpt-4"
+pipe.valves.COT_ITERATIONS = 3
+pipe.valves.ENABLE_SHOW_REASONING_TRACE = True
+```
+
+---
+
+## 🧠 Example Prompt Flow
+
+1. **Initial Reasoning**  
+   Breaks down the user query into key components and strategies.
+
+2. **Chain-of-Thought**  
+   Iteratively refines the approach across multiple passes.
+
+3. **Final Response**  
+   Consolidates reasoning into a clean, executable or actionable answer.
+
+---
+
+## 🔐 Ideal For
+
+- **AI Agents & Toolformer-like Systems**
+- **Secure Reasoning Interfaces**
+- **Prompt Engineering Research**
+- **LLM-Based Debugging Tools**
+
+---
+
+## 📡 Coming Soon
+
+- 🔌 Plugin integration for LangChain-style chains  
+- 🧠 Reasoning embeddings for fine-tuned trace memory  
+- 📊 Token accounting and cost estimation metrics  
+- 🦾 Agentic memory buffers for multi-turn tasks
+
+---
+
+## 👨‍💻 About the Author
+
+I'm Sam Paniagua, a Technical Lead, AI Specialist, and Full-Stack Developer focused on secure and intelligent systems. My work spans GPT-driven fraud detection, generative media, and LLM-powered apps at scale. Explore more of my AI innovations at [theeseus.dev](https://theeseus.dev).
+
+---
+
+## 🧠 Let's Collaborate
+
+If you're building advanced reasoning agents, security-aware AI tools, or next-gen LLM interfaces, reach out. Let’s push the boundaries together.
+
+---
+
+> “AI shouldn’t just generate answers — it should *explain its thought process*.”
+
+```
+
